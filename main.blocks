@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="7/f*XIY5RLKD5TgCLx2.">adjust</variable><variable id="N_}#]$Tx#,jf1@or/cr9">hours</variable><variable id="EM@8rIob7jv*z6Y9MGZG">ampm</variable><variable id="HAY@m)m*40LZmp=*w%+C">time</variable><variable id="Ry$/XIq;c/Qe,fr3L/JV">minutes</variable></variables><block type="device_button_event" id="*n?MO)-ZP8RxI[lbJjF," x="-462" y="-42"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="8r}$ova3A?%%HJHBLoQ]"><field name="LEDS">`
+        . # . . # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="input_logo_event" id="vk@XO0|$-V*0dlMk@leA" x="0" y="0"><field name="action">TouchButtonEvent.Touched</field><statement name="HANDLER"><block type="device_show_leds" id="hKZ$}UKe2npZ20FlO2-S"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="basic_show_icon" id="Xt`9HZqXv8Y,AiYDFS40"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id="L76DX.tXLb0#c(=DdV2l"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        # # # # #
+        `</field></block></next></block></next></block></statement></block><block type="input_logo_event" id="A7A@+pa%6,ocEN@Jmj|D" x="252" y="15"><field name="action">TouchButtonEvent.Released</field><statement name="HANDLER"><block type="device_show_leds" id="W!4.uqmof=7G$jlgzGB#"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # # # # # 
+        # . . . #
+        `</field></block></statement></block><block type="device_button_event" id="7lzupD6#f[Yp][er9utF" x="-596" y="280"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="/b]G}:{^;RL[PE3E`;*$"><field name="i">IconNames.Asleep</field></block></statement></block></xml>
